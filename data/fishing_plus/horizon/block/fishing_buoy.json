@@ -1,0 +1,8 @@
+{
+  "template": "minecraft:lily_pad",
+  "properties": {
+    "sounds": "minecraft:oak_planks",
+    "light": 8
+  },
+  "item": true
+}

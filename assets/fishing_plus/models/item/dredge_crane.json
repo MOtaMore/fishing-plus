@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/dredge_crane"
+                 },
+    "parent":  "minecraft:item/handheld_rod"
+}

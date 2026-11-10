@@ -1,0 +1,6 @@
+{
+    "model":  {
+                  "model":  "minecraft:item/glow_ink_sac",
+                  "type":  "minecraft:model"
+              }
+}

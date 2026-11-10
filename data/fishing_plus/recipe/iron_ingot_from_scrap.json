@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": "fishing_plus:scrap_metal"
+  },
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "count": 1
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:cod",
+  "rarity": "common",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation": 1.2
+    }
+  }
+}
+

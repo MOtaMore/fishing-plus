@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/cooked_bluefin_tuna"
+                 },
+    "parent":  "minecraft:item/generated"
+}

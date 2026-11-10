@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:salmon",
+  "rarity": "uncommon",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 5,
+      "saturation": 4.0
+    }
+  }
+}
+

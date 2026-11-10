@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:glow_squid_ink_sac",
+  "rarity": "uncommon",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation": 2.0
+    }
+  }
+}
+

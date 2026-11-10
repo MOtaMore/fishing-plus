@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  I",
+    " RS",
+    "I S"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:fishing_rod",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "fishing_plus:reinforced_fishing_rod",
+    "count": 1
+  }
+}
+

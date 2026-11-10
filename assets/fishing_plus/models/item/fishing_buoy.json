@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/fishing_buoy"
+                 },
+    "parent":  "minecraft:item/generated"
+}

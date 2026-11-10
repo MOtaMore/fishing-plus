@@ -1,0 +1,6 @@
+/target/
+*.hmod
+*.hnmod
+*.hmod.partial
+*.minisig
+

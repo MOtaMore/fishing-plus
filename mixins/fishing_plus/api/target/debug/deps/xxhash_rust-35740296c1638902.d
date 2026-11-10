@@ -1,0 +1,11 @@
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\xxhash_rust-35740296c1638902.d: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\utils.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh64_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3.rs
+
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\libxxhash_rust-35740296c1638902.rmeta: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\utils.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh64_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3_common.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3.rs
+
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\lib.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\utils.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32_common.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh32.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh64_common.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3_common.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\xxhash-rust-0.8.19\src\xxh3.rs:

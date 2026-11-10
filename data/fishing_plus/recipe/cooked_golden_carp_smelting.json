@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "fishing_plus:golden_carp",
+  "result": {
+    "id": "fishing_plus:cooked_golden_carp"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
+

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WRW",
+    "RSR",
+    "WRW"
+  ],
+  "key": {
+    "W": "minecraft:white_wool",
+    "R": "minecraft:red_wool",
+    "S": "#minecraft:planks"
+  },
+  "result": {
+    "id": "fishing_plus:fishing_buoy",
+    "count": 2
+  }
+}
+

@@ -1,0 +1,8 @@
+{
+  "template": "minecraft:fishing_rod",
+  "rarity": "uncommon",
+  "components": {
+    "minecraft:max_damage": 256
+  }
+}
+

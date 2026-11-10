@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:pufferfish",
+  "rarity": "rare",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation": 3.0
+    }
+  }
+}
+

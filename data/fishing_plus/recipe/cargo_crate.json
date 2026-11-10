@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "ICI",
+    "PPP"
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "I": "minecraft:iron_ingot",
+    "C": "#c:chests"
+  },
+  "result": {
+    "id": "fishing_plus:cargo_crate",
+    "count": 1
+  }
+}
+

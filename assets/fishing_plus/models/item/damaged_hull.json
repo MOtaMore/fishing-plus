@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fishing_plus:item/damaged_hull"
+  }
+}
+

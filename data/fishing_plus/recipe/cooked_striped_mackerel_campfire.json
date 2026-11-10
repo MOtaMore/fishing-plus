@@ -1,0 +1,10 @@
+{
+    "cookingtime":  600,
+    "experience":  0.35,
+    "ingredient":  "fishing_plus:striped_mackerel",
+    "type":  "minecraft:campfire_cooking",
+    "category":  "food",
+    "result":  {
+                   "id":  "fishing_plus:cooked_striped_mackerel"
+               }
+}

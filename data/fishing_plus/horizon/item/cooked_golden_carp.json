@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:cooked_cod",
+  "rarity": "uncommon",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 7,
+      "saturation": 8.4
+    }
+  }
+}
+

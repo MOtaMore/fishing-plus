@@ -1,0 +1,10 @@
+[package]
+name = "mod-fishing_plus"
+version = "0.1.7"
+edition = "2024"
+
+[dependencies]
+# El Launcher de Horizon redirige automáticamente esta dependencia al código fuente
+# de la versión de Horizon sobre la que compila la instancia.
+horizon-client = { git = "https://github.com/horizon-rust/horizon" }
+

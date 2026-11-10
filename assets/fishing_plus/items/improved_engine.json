@@ -1,0 +1,6 @@
+{
+    "model":  {
+                  "model":  "minecraft:item/hopper_minecart",
+                  "type":  "minecraft:model"
+              }
+}

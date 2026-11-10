@@ -1,0 +1,11 @@
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\lz4_flex-41c4fd927bb4d2fe.d: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs
+
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\liblz4_flex-41c4fd927bb4d2fe.rmeta: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs
+
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs:

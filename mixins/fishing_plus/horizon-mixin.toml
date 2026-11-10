@@ -1,0 +1,14 @@
+# Fishing Plus: parte nativa en Rust (Trait Mod).
+# Se compila mediante el Launcher de Horizon:
+#   & "$env:LOCALAPPDATA\Programs\Horizon Launcher\horizon-launcher.exe" native-build mixins/fishing_plus --instance horizon --trust-native-code
+[mod]
+id = "fishing_plus"
+version = "0.1.7"
+
+# Si quieres fijar un commit específico de Horizon, descomenta estas líneas:
+# [compatibility]
+# horizon_revision = "<40 dígitos hexadecimales>"
+
+[api]
+path = "api"
+

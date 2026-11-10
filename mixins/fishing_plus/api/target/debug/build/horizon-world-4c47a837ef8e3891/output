@@ -1,0 +1,6 @@
+cargo:rerun-if-changed=C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-world\src
+cargo:rerun-if-changed=C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-world\../horizon-core\src
+cargo:rerun-if-changed=C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-world\Cargo.toml
+cargo:rerun-if-changed=C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-world\../horizon-core\Cargo.toml
+cargo:rerun-if-changed=C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-world\../../Cargo.lock
+cargo:rustc-env=HORIZON_WORLD_SOURCES=4a35b46533599b9469b3dea33fea018a

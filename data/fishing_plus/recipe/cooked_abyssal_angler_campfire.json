@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "fishing_plus:abyssal_angler",
+  "result": {
+    "id": "fishing_plus:cooked_abyssal_angler"
+  },
+  "experience": 0.5,
+  "cookingtime": 600
+}
+

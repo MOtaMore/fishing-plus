@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fishing_plus:golden_carp",
+    "fishing_plus:cooked_golden_carp",
+    "fishing_plus:abyssal_angler",
+    "fishing_plus:cooked_abyssal_angler",
+    "fishing_plus:striped_mackerel",
+    "fishing_plus:cooked_striped_mackerel",
+    "fishing_plus:bluefin_tuna",
+    "fishing_plus:cooked_bluefin_tuna",
+    "fishing_plus:glowing_squid",
+    "fishing_plus:cooked_glowing_squid",
+    "fishing_plus:viperfish",
+    "fishing_plus:cooked_viperfish"
+  ]
+}

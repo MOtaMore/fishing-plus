@@ -1,0 +1,10 @@
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\horizon_mod_api_gen-2d00029afb58f2af.d: C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\lib.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\build.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\injection.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\staged.rs
+
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\libhorizon_mod_api_gen-2d00029afb58f2af.rlib: C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\lib.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\build.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\injection.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\staged.rs
+
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\libhorizon_mod_api_gen-2d00029afb58f2af.rmeta: C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\lib.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\build.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\injection.rs C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\staged.rs
+
+C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\lib.rs:
+C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\build.rs:
+C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\injection.rs:
+C:\Users\matia\.cargo\git\checkouts\horizon-5a198cb72f4fbd36\1405044\crates\horizon-mod-api-gen\src\staged.rs:

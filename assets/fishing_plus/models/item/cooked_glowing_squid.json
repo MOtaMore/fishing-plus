@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/cooked_glowing_squid"
+                 },
+    "parent":  "minecraft:item/generated"
+}

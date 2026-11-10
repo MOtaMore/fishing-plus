@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/refined_wood"
+                 },
+    "parent":  "minecraft:item/generated"
+}

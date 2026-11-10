@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "fishing_plus:item/scrap_metal"
+                 },
+    "parent":  "minecraft:item/generated"
+}

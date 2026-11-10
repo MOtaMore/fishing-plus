@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "fishing_plus:block/cargo_crate"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

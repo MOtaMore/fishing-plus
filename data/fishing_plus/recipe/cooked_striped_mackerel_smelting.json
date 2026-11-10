@@ -1,0 +1,10 @@
+{
+    "cookingtime":  200,
+    "experience":  0.35,
+    "ingredient":  "fishing_plus:striped_mackerel",
+    "type":  "minecraft:smelting",
+    "category":  "food",
+    "result":  {
+                   "id":  "fishing_plus:cooked_striped_mackerel"
+               }
+}

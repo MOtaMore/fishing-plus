@@ -1,0 +1,10 @@
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\gilrs_core-857eeb3beb0d985a.d: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\ff.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\gamepad.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\utils.rs
+
+a:\fishing-plus\mixins\fishing_plus\api\target\debug\deps\libgilrs_core-857eeb3beb0d985a.rmeta: C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\lib.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\mod.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\ff.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\gamepad.rs C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\utils.rs
+
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\lib.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\mod.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\mod.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\ff.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\platform\windows_wgi\gamepad.rs:
+C:\Users\matia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gilrs-core-0.6.8\src\utils.rs:

@@ -1,0 +1,3452 @@
+{
+  "credit": "Made for Fishing Plus (Dredge Edition)",
+  "textures": {
+    "particle": "minecraft:block/mangrove_planks",
+    "hull_cream": "minecraft:block/birch_planks",
+    "hull_red": "minecraft:block/mangrove_planks",
+    "deck": "minecraft:block/spruce_planks",
+    "cabin_wall": "minecraft:block/oak_planks",
+    "cabin_roof": "minecraft:block/red_terracotta",
+    "gold_trim": "minecraft:block/gold_block",
+    "glass_lit": "minecraft:block/sea_lantern",
+    "metal_dark": "minecraft:block/iron_block",
+    "exhaust": "minecraft:block/heavy_core",
+    "tire": "minecraft:block/coal_block",
+    "tire_rim": "minecraft:block/smooth_stone",
+    "lantern": "minecraft:block/glowstone",
+    "bronze": "minecraft:block/copper_block",
+    "net": "minecraft:block/brown_wool"
+  },
+  "elements": [
+    {
+      "name": "Keel_Bottom",
+      "from": [
+        3,
+        1,
+        -4
+      ],
+      "to": [
+        13,
+        3,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            13,
+            16,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#hull_cream",
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            13,
+            16,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#deck",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hull_Side_Port",
+      "from": [
+        1,
+        3,
+        -4
+      ],
+      "to": [
+        3,
+        7,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            1,
+            9,
+            3,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            16,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#hull_red",
+          "uv": [
+            1,
+            9,
+            3,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            16,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            1,
+            0,
+            3,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            1,
+            0,
+            3,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hull_Side_Starboard",
+      "from": [
+        13,
+        3,
+        -4
+      ],
+      "to": [
+        15,
+        7,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            13,
+            9,
+            15,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            16,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#hull_red",
+          "uv": [
+            13,
+            9,
+            15,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            16,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            13,
+            0,
+            15,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            13,
+            0,
+            15,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Stern_Transom",
+      "from": [
+        3,
+        3,
+        17
+      ],
+      "to": [
+        13,
+        7,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            3,
+            9,
+            13,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            2,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#hull_red",
+          "uv": [
+            3,
+            9,
+            13,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            2,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            3,
+            0,
+            13,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Port",
+      "from": [
+        0.5,
+        7,
+        -4.5
+      ],
+      "to": [
+        3,
+        8.5,
+        18.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Starboard",
+      "from": [
+        13,
+        7,
+        -4.5
+      ],
+      "to": [
+        15.5,
+        8.5,
+        18.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.5,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Stern",
+      "from": [
+        2.5,
+        7,
+        18
+      ],
+      "to": [
+        13.5,
+        8.5,
+        19.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            11,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            11,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            11,
+            1.5
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            11,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Main_Deck",
+      "from": [
+        3,
+        3,
+        -4
+      ],
+      "to": [
+        13,
+        3.5,
+        17
+      ],
+      "faces": {
+        "up": {
+          "texture": "#deck",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#deck",
+          "uv": [
+            3,
+            0,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cabin_Main_Body",
+      "from": [
+        4,
+        3.5,
+        -3
+      ],
+      "to": [
+        12,
+        11,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4,
+            5,
+            12,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#cabin_wall",
+          "uv": [
+            0,
+            5,
+            8,
+            12.5
+          ]
+        },
+        "south": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4,
+            5,
+            12,
+            12.5
+          ]
+        },
+        "west": {
+          "texture": "#cabin_wall",
+          "uv": [
+            0,
+            5,
+            8,
+            12.5
+          ]
+        },
+        "up": {
+          "texture": "#cabin_roof",
+          "uv": [
+            4,
+            0,
+            12,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4,
+            0,
+            12,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cabin_Front_Windshield_Wall",
+      "from": [
+        4.5,
+        3.5,
+        -5
+      ],
+      "to": [
+        11.5,
+        10.5,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4.5,
+            5.5,
+            11.5,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#cabin_wall",
+          "uv": [
+            0,
+            5.5,
+            2,
+            12.5
+          ]
+        },
+        "south": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4.5,
+            5.5,
+            11.5,
+            12.5
+          ]
+        },
+        "west": {
+          "texture": "#cabin_wall",
+          "uv": [
+            0,
+            5.5,
+            2,
+            12.5
+          ]
+        },
+        "up": {
+          "texture": "#cabin_roof",
+          "uv": [
+            4.5,
+            0,
+            11.5,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#cabin_wall",
+          "uv": [
+            4.5,
+            0,
+            11.5,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Front_Windshield_Glass",
+      "from": [
+        5,
+        7,
+        -5.2
+      ],
+      "to": [
+        11,
+        10,
+        -5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass_lit",
+          "uv": [
+            5,
+            6,
+            11,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            5,
+            0,
+            11,
+            0.2
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            5,
+            0,
+            11,
+            0.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Port_Porthole",
+      "from": [
+        3.8,
+        7,
+        0
+      ],
+      "to": [
+        4,
+        9,
+        2
+      ],
+      "faces": {
+        "west": {
+          "texture": "#glass_lit",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "name": "Starboard_Porthole",
+      "from": [
+        12,
+        7,
+        0
+      ],
+      "to": [
+        12.2,
+        9,
+        2
+      ],
+      "faces": {
+        "east": {
+          "texture": "#glass_lit",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rear_Door_Window",
+      "from": [
+        6.5,
+        6.5,
+        5
+      ],
+      "to": [
+        9.5,
+        9.5,
+        5.2
+      ],
+      "faces": {
+        "south": {
+          "texture": "#glass_lit",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cabin_Roof",
+      "from": [
+        3,
+        11,
+        -5.5
+      ],
+      "to": [
+        13,
+        12.5,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3,
+            0,
+            13,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#cabin_roof",
+          "uv": [
+            0,
+            0,
+            11.5,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3,
+            0,
+            13,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#cabin_roof",
+          "uv": [
+            0,
+            0,
+            11.5,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3,
+            0,
+            13,
+            11.5
+          ]
+        },
+        "down": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3,
+            0,
+            13,
+            11.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Roof_Visor_Overhang",
+      "from": [
+        3.5,
+        11.5,
+        -6.5
+      ],
+      "to": [
+        12.5,
+        12.5,
+        -5.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            1
+          ]
+        },
+        "down": {
+          "texture": "#cabin_roof",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "Roof_Gold_Trim",
+      "from": [
+        3.8,
+        10.5,
+        -4.8
+      ],
+      "to": [
+        12.2,
+        11,
+        5.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold_trim",
+          "uv": [
+            0,
+            0,
+            8.4,
+            0.5
+          ]
+        },
+        "east": {
+          "texture": "#gold_trim",
+          "uv": [
+            0,
+            0,
+            10,
+            0.5
+          ]
+        },
+        "south": {
+          "texture": "#gold_trim",
+          "uv": [
+            0,
+            0,
+            8.4,
+            0.5
+          ]
+        },
+        "west": {
+          "texture": "#gold_trim",
+          "uv": [
+            0,
+            0,
+            10,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Exhaust_Pipe_Vertical",
+      "from": [
+        10,
+        12.5,
+        2
+      ],
+      "to": [
+        11.5,
+        16,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ]
+        },
+        "east": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ]
+        },
+        "south": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ]
+        },
+        "west": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ]
+        },
+        "up": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Exhaust_Pipe_Elbow",
+      "from": [
+        10,
+        15,
+        3.5
+      ],
+      "to": [
+        11.5,
+        16.5,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vent_Chimney",
+      "from": [
+        4.5,
+        12.5,
+        2
+      ],
+      "to": [
+        6,
+        14.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Radar_Mast_Vertical",
+      "from": [
+        7.5,
+        12.5,
+        -1
+      ],
+      "to": [
+        8.5,
+        22,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            9.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1,
+            9.5
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            9.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "Radar_Crossbar_Low",
+      "from": [
+        5.5,
+        16,
+        -0.6
+      ],
+      "to": [
+        10.5,
+        16.6,
+        -0.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5,
+            0.6
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5,
+            0.6
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5,
+            0.2
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5,
+            0.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Radar_Crossbar_Mid",
+      "from": [
+        6,
+        18,
+        -0.6
+      ],
+      "to": [
+        10,
+        18.6,
+        -0.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            0.6
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            0.6
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            0.2
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            0.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Radar_Crossbar_Top",
+      "from": [
+        6.5,
+        20,
+        -0.6
+      ],
+      "to": [
+        9.5,
+        20.6,
+        -0.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            0.6
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            0.6
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            0.2
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            0.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tire_Port_Fwd",
+      "from": [
+        -0.2,
+        3.5,
+        0
+      ],
+      "to": [
+        1,
+        7.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tire_Port_Aft",
+      "from": [
+        -0.2,
+        3.5,
+        7
+      ],
+      "to": [
+        1,
+        7.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tire_Starboard_Fwd",
+      "from": [
+        15,
+        3.5,
+        0
+      ],
+      "to": [
+        16.2,
+        7.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tire_Starboard_Aft",
+      "from": [
+        15,
+        3.5,
+        7
+      ],
+      "to": [
+        16.2,
+        7.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#tire",
+          "uv": [
+            0,
+            0,
+            1.2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fishing_Rod_Port",
+      "from": [
+        3.2,
+        3.5,
+        -1
+      ],
+      "to": [
+        3.8,
+        17,
+        -0.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fishing_Rod_Starboard",
+      "from": [
+        12.2,
+        3.5,
+        -1
+      ],
+      "to": [
+        12.8,
+        17,
+        -0.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            0.6,
+            13.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Net_Drum_Port",
+      "from": [
+        0.5,
+        5,
+        12
+      ],
+      "to": [
+        2,
+        7.5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.5
+          ]
+        },
+        "east": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "south": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.5
+          ]
+        },
+        "west": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "up": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Net_Drum_Starboard",
+      "from": [
+        14,
+        5,
+        12
+      ],
+      "to": [
+        15.5,
+        7.5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.5
+          ]
+        },
+        "east": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "south": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.5
+          ]
+        },
+        "west": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "up": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#net",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dredge_Winch_Base",
+      "from": [
+        6,
+        3.5,
+        7
+      ],
+      "to": [
+        10,
+        5.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dredge_Winch_Drum",
+      "from": [
+        6.5,
+        4.5,
+        7.5
+      ],
+      "to": [
+        9.5,
+        7,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            2.5
+          ]
+        },
+        "south": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            3,
+            2.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            2.5
+          ]
+        },
+        "up": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crane_Strut_Port",
+      "from": [
+        5,
+        4,
+        9
+      ],
+      "to": [
+        6.5,
+        13,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crane_Strut_Starboard",
+      "from": [
+        9.5,
+        4,
+        9
+      ],
+      "to": [
+        11,
+        13,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crane_Cross_Axle",
+      "from": [
+        6,
+        12,
+        16.5
+      ],
+      "to": [
+        10,
+        13.5,
+        18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crane_Jib_Extension",
+      "from": [
+        7,
+        11.5,
+        17.5
+      ],
+      "to": [
+        9,
+        13,
+        23
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5.5,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            5.5,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            5.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            2,
+            5.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dredge_Scoop_Cage",
+      "from": [
+        6,
+        2,
+        21.5
+      ],
+      "to": [
+        10,
+        6,
+        25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.5,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.5,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            3.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            4,
+            3.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dredge_Cable",
+      "from": [
+        7.8,
+        6,
+        23
+      ],
+      "to": [
+        8.2,
+        12,
+        23.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            0.4,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            0.4,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            0.4,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#exhaust",
+          "uv": [
+            0,
+            0,
+            0.4,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Propeller_Port",
+      "from": [
+        4.5,
+        0.5,
+        18.5
+      ],
+      "to": [
+        6.5,
+        2.5,
+        19.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "north": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Propeller_Starboard",
+      "from": [
+        9.5,
+        0.5,
+        18.5
+      ],
+      "to": [
+        11.5,
+        2.5,
+        19.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "north": {
+          "texture": "#bronze",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Foredeck",
+      "from": [
+        3.5,
+        3.0,
+        -10.0
+      ],
+      "to": [
+        12.5,
+        3.6,
+        -4.0
+      ],
+      "faces": {
+        "up": {
+          "texture": "#deck",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#deck",
+          "uv": [
+            3.5,
+            0,
+            12.5,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Keel_Taper",
+      "from": [
+        4.0,
+        1.5,
+        -10.0
+      ],
+      "to": [
+        12.0,
+        3.0,
+        -4.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            4,
+            13,
+            12,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            13,
+            6,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            13,
+            6,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            4,
+            0,
+            12,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Side_Port",
+      "from": [
+        2.5,
+        3.0,
+        -7.5
+      ],
+      "to": [
+        5.0,
+        7.0,
+        -4.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            2.5,
+            9,
+            5,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3.5,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3.5,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            2.5,
+            0,
+            5,
+            3.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Side_Starboard",
+      "from": [
+        11.0,
+        3.0,
+        -7.5
+      ],
+      "to": [
+        13.5,
+        7.0,
+        -4.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            11,
+            9,
+            13.5,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3.5,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3.5,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            11,
+            0,
+            13.5,
+            3.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Prow_Port",
+      "from": [
+        4.0,
+        2.5,
+        -10.5
+      ],
+      "to": [
+        7.0,
+        7.0,
+        -7.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            4,
+            9,
+            7,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            4,
+            0,
+            7,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Prow_Starboard",
+      "from": [
+        9.0,
+        2.5,
+        -10.5
+      ],
+      "to": [
+        12.0,
+        7.0,
+        -7.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            9,
+            9,
+            12,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            3,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bow_Stem_Prow",
+      "from": [
+        6.5,
+        2.0,
+        -11.5
+      ],
+      "to": [
+        9.5,
+        7.0,
+        -10.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_red",
+          "uv": [
+            6.5,
+            9,
+            9.5,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            1.5,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#hull_red",
+          "uv": [
+            0,
+            9,
+            1.5,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#hull_red",
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Bow_Port",
+      "from": [
+        2.0,
+        7.0,
+        -7.5
+      ],
+      "to": [
+        4.8,
+        8.2,
+        -4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.2
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Bow_Stbd",
+      "from": [
+        11.2,
+        7.0,
+        -7.5
+      ],
+      "to": [
+        14.0,
+        8.2,
+        -4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.2
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            2.8,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Prow_Port",
+      "from": [
+        3.8,
+        7.0,
+        -10.5
+      ],
+      "to": [
+        6.8,
+        8.2,
+        -7.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Prow_Stbd",
+      "from": [
+        9.2,
+        7.0,
+        -10.5
+      ],
+      "to": [
+        12.2,
+        8.2,
+        -7.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            1.2
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gunwale_Prow_Cap",
+      "from": [
+        6.0,
+        7.0,
+        -11.5
+      ],
+      "to": [
+        10.0,
+        8.2,
+        -9.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            4,
+            1.2
+          ]
+        },
+        "east": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            1.7,
+            1.2
+          ]
+        },
+        "west": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            1.7,
+            1.2
+          ]
+        },
+        "up": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            4,
+            1.7
+          ]
+        },
+        "down": {
+          "texture": "#hull_cream",
+          "uv": [
+            0,
+            0,
+            4,
+            1.7
+          ]
+        }
+      }
+    },
+    {
+      "name": "Upper_Headlight_Bracket",
+      "from": [
+        7.5,
+        3.6,
+        -6.5
+      ],
+      "to": [
+        8.5,
+        6.2,
+        -5.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            4,
+            8.5,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            4,
+            1.2,
+            6.5
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            4,
+            1.2,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            1.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Upper_Headlight_Housing",
+      "from": [
+        6.2,
+        5.8,
+        -7.8
+      ],
+      "to": [
+        9.8,
+        8.8,
+        -6.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lantern",
+          "uv": [
+            6,
+            6,
+            10,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.6,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.6,
+            1.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.6,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower_Headlight_Bracket",
+      "from": [
+        7.5,
+        4.2,
+        -12.5
+      ],
+      "to": [
+        8.5,
+        5.4,
+        -11.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            4,
+            8.5,
+            5.2
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            4,
+            1.5,
+            5.2
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            4,
+            1.5,
+            5.2
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            1.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower_Headlight_Housing",
+      "from": [
+        6.4,
+        3.8,
+        -13.8
+      ],
+      "to": [
+        9.6,
+        6.6,
+        -12.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lantern",
+          "uv": [
+            6,
+            4,
+            10,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.8
+          ]
+        },
+        "south": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.2,
+            2.8
+          ]
+        },
+        "west": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.8
+          ]
+        },
+        "up": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.2,
+            1.5
+          ]
+        },
+        "down": {
+          "texture": "#metal_dark",
+          "uv": [
+            0,
+            0,
+            3.2,
+            1.5
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

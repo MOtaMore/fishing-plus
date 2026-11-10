@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:planks",
+    "minecraft:dried_kelp",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "id": "fishing_plus:refined_wood",
+    "count": 2
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+    "model":  {
+                  "model":  "minecraft:item/pufferfish",
+                  "type":  "minecraft:model"
+              }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "transportation",
+  "pattern": [
+    " C ",
+    " B ",
+    " E "
+  ],
+  "key": {
+    "C": "fishing_plus:cargo_crate",
+    "B": "#minecraft:boats",
+    "E": "fishing_plus:outboard_engine"
+  },
+  "result": {
+    "id": "fishing_plus:fishing_boat",
+    "count": 1
+  }
+}
+
