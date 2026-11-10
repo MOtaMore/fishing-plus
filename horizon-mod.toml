@@ -1,6 +1,6 @@
 id = "fishing_plus"
 name = "Fishing Plus"
-version = "0.1.7"
+version = "0.1.10"
 description = "Expansión de pesca para Minecraft Horizon: nuevos peces, recetas de cocina y mecánicas en Rust."
 authors = ["MOtaMore"]
 api = "0.2"

@@ -3,7 +3,7 @@
 #   & "$env:LOCALAPPDATA\Programs\Horizon Launcher\horizon-launcher.exe" native-build mixins/fishing_plus --instance horizon --trust-native-code
 [mod]
 id = "fishing_plus"
-version = "0.1.7"
+version = "0.1.10"
 
 # Si quieres fijar un commit específico de Horizon, descomenta estas líneas:
 # [compatibility]
